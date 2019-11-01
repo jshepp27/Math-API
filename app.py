@@ -145,10 +145,6 @@ api.add_resource(Subtract, "/subtract")
 api.add_resource(Multiply, "/multiply")
 api.add_resource(Divide, "/divide")
 
-@app.route('/')
-def hello_world():
-    return "Oi you!"
-
 if __name__ == "__main__":
     app.run(debug=True)
 
